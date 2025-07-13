@@ -5,7 +5,7 @@
 > Imagine it as a USB-C port - but for AI applications. Just like USB-C streamlines connecting various devices to your computer, MCP streamlines how AI models access and interact with your data, tools, and services.
 
 
-![mcp overview](/02-mcp-protocol/images/mcp_overview.png)
+<img src="/02-mcp-protocol/images/mcp_overview.png" alt="mcp overview" width="500"/>
 
 ## 🚀 The Big Picture
 
