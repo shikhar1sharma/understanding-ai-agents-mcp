@@ -64,26 +64,6 @@ With MCP:
 - **Dynamic actions**: Perform real operations
 - **Bidirectional**: AI can both read and write
 
-## 🎯 What Problems Does MCP Solve?
-
-### Problem 1: Outdated Information
-```
-Traditional AI: "Based on 2023 data, unemployment was 3.5%"
-MCP-enabled AI: "Current unemployment rate is 4.1% (updated this morning)"
-```
-
-### Problem 2: Limited Functionality
-```
-Traditional AI: "Here's how you would update a database record..."
-MCP-enabled AI: "I've updated the database record. Here's the confirmation."
-```
-
-### Problem 3: Isolated Systems
-```
-Traditional AI: Works in isolation
-MCP-enabled AI: Connects to your entire tech stack
-```
-
 ## 🔧 MCP in Action
 
 ### Example 1: Customer Support
@@ -117,17 +97,12 @@ Key growth drivers: Product A (+25%), New market expansion (+40%)"
 ## 🌍 The MCP Ecosystem
 
 ### Core Components
-- **MCP Servers**: Provide access to specific resources
-- **MCP Clients**: AI models that consume MCP services
+- **Host**: User-facing AI applications such as Cursor, Hugging Face’s Python SDK the initiates connections to MCP Servers and coordinates the flow between user input, LLM processing, and external tools.
+- **MCP Server**: An external service or program that provides capabilities—such as tools, resources, or prompts—through the MCP protocol. Fo eg: Code Analyzer server, weather forcast server. 
+- **MCP Clients**: A component inside the Host that handles communication with a specific MCP Server. It maintains a dedicated connection to one Server, managing the MCP protocol details and serving as a bridge between the Host’s logic and the Server.
 - **MCP Protocol**: The communication standard
-- **MCP Tools**: Utilities for building and managing connections
 
-### Popular MCP Servers
-- **Database connectors**: PostgreSQL, MySQL, MongoDB
-- **File systems**: Local files, cloud storage
-- **Web APIs**: REST, GraphQL endpoints
-- **Business tools**: CRM, ERP, marketing platforms
-- **Development tools**: Git, CI/CD, monitoring
+<img src="/02-mcp-protocol/images/mcp_architecture.jpg" alt="mcp overview" width="500"/>
 
 ## 🚀 Why MCP Matters
 
@@ -145,18 +120,6 @@ Key growth drivers: Product A (+25%), New market expansion (+40%)"
 - **Better answers**: AI has access to current information
 - **Actual actions**: AI can do things, not just explain them
 - **Personalized experience**: AI works with your specific data
-
-## 📈 The Future with MCP
-
-### Today's Reality
-- AI models are powerful but isolated
-- Each integration requires custom development
-- Security and access control are complex
-
-### Tomorrow's Vision
-- AI seamlessly integrated into all business processes
-- Real-time, context-aware AI assistance
-- Secure, standardized AI-to-system connections
 
 ## 🎯 Key Takeaways
 
