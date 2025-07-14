@@ -129,12 +129,13 @@ Key growth drivers: Product A (+25%), New market expansion (+40%)"
 4. **It enables real-time AI** that can both read and write data
 5. **It's the foundation** for truly useful AI agents
 
+<!--
 ## 🔗 What's Next?
 
 Understanding what MCP is leads to an important question: **Why do we need it?** Let's explore the problems that led to MCP's creation.
 
 👉 **Next:** [Why MCP Exists](why-mcp-exists.md)
-
+-->
 ---
 
 *💡 **Pro Tip**: MCP is still evolving rapidly. The best way to understand it is to see it in action - we'll build real examples throughout this guide.*
