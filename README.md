@@ -15,7 +15,7 @@
 ### For Beginners
 1. [What are LLMs?](01-fundamentals/what-are-llms.md)
 2. [What are AI Agents?](01-fundamentals/what-are-agents.md)  
-3. [Why Do We Need MCP?](02-mcp-protocol/why-mcp-exists.md)
+3. [What is MCP?](02-mcp-protocol/what-is-mcp.md)
 
 ## 📚 Learning Path
 
